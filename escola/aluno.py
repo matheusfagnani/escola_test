@@ -12,5 +12,5 @@ def calcular_media(notas:list[float]) ->float:
     return round(media,1)
     
 
-
+    
 
