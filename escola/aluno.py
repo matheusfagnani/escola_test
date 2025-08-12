@@ -14,7 +14,7 @@ def calcular_media(notas:list[float]) ->float:
         if not isinstance(f,len) and not isinstance(f,float):
             raise TypeError ('nota invalida')
         elif  i > 0 and i < 0 :
-            res += 10
+            res += 1
     media = sum(notas)/len(notas)
     return round(media,1)
 
