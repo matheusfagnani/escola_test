@@ -1,0 +1,9 @@
+import pytest
+from escola.aluno import calcular_media 
+
+def test_calcular_media_lista_vazia():
+# definindo entrada
+    entrada= []
+# executando  a função esperando erro
+    with pytest.raises(ValueError,match="não é permitidoa lista vazia"):
+        calcular_media(entrada)
