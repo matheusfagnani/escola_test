@@ -7,3 +7,6 @@ def verificar_aprovacao(media: float) -> str:
         return "Recuperação"
     return "Reprovado"
     
+
+
+   -
